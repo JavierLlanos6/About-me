@@ -1,5 +1,5 @@
 import React from "react";
-import Typical from "react-typical";
+import { ReactTyped as Typed } from "react-typed";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import "./Home.css";
 
@@ -10,11 +10,15 @@ const Home = () => {
         <h1>Javier Llanos</h1>
         <p>
           I'm{" "}
-          <Typical
-            loop={Infinity}
-            wrapper="b"
-            steps={["Designer", 4000, "UX/UI", 4000, "System Engineer", 4000]}
-          />
+          <span className="typing-text">
+            <Typed
+              strings={["Fronted Developer", "Freelancer", "System Engineer"]}
+              typeSpeed={50} // Velocidad de escritura
+              backSpeed={30} // Velocidad de borrado
+              loop // Para repetir el ciclo
+              backDelay={1500} // Tiempo antes de borrar la palabra
+            />
+          </span>
         </p>
         <div className="social-icons">
           <a
@@ -25,7 +29,7 @@ const Home = () => {
             <FaGithub className="icon" />
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/javier-llanos-2b671628a/"
             target="_blank"
             rel="noopener noreferrer"
           >
