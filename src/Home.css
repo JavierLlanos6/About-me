@@ -26,7 +26,7 @@ p {
 
 .social-icons {
   display: flex;
-  gap: 15px;
+  gap: 30px;
   margin-top: 20px;
 }
 
@@ -38,4 +38,19 @@ p {
 
 .icon:hover {
   color: #29be31; /* Color gris al pasar el ratón */
+}
+
+.typing-text {
+  position: relative;
+  color: #fff; /* Color del texto */
+}
+
+.typing-text::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px; /* Ajusta esta distancia para colocar la línea justo debajo del texto */
+  width: 100%;
+  height: 2px; /* Grosor de la línea */
+  background-color: #29be31; /* Cambia a tu color verde preferido */
 }
