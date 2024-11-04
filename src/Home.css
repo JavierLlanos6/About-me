@@ -1,0 +1,41 @@
+/* Home.css */
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.home-content {
+  text-align: left;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+p {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.icon {
+  color: #fff; /* Color blanco */
+  font-size: 1.5em;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: #29be31; /* Color gris al pasar el ratón */
+}
