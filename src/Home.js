@@ -14,7 +14,7 @@ const Home = () => {
             <Typed
               strings={["Fronted Developer", "Freelancer", "System Engineer"]}
               typeSpeed={50} // Velocidad de escritura
-              backSpeed={30} // Velocidad de borrado
+              backSpeed={35} // Velocidad de borrado
               loop // Para repetir el ciclo
               backDelay={1500} // Tiempo antes de borrar la palabra
             />
