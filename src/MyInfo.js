@@ -2,58 +2,77 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
 import "./MyInfo.css";
+import { FaChevronRight } from "react-icons/fa"; // Importa el icono
+import ProfileImage from "./images/messizidane.jpeg";
 
 const MyInfo = () => {
   const { ref, inView } = useInView({
     triggerOnce: true, // Solo se activa una vez
-    threshold: 0.1, // Se activa cuando el 10% del componente está en vista
+    threshold: 0.3, // Se activa cuando el 10% del componente está en vista
   });
 
   return (
     <div className={`MyInfo-container ${inView ? "fade-in" : ""}`} ref={ref}>
       <div className="MyInfo-image">
         {/* Coloca la imagen aquí */}
-        <img src="path/to/your/image.jpg" alt="Profile" />
+        <img src={ProfileImage} alt="Profile" className="profile-image" />
       </div>
       <div className="MyInfo-info">
-        <h2>UI/UX Designer & Web Developer</h2>
+        <h2>System Engineer & Web Developer</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <p>
+            I am a passionate System Engineer and Web Developer with a focus on
+            creating intuitive and efficient digital solutions. With experience
+            in front-end and back-end development, I aim to bring ideas to life
+            through clean code and engaging designs.
+          </p>
         </p>
         <div className="MyInfo-details">
           <ul>
             <li>
-              <span>Birthday:</span> 1 May 1995
+              <FaChevronRight className="icon-green" />
+              <span>Birthday:</span> 23 Mar 2000
             </li>
             <li>
-              <span>Website:</span> www.example.com
+              <FaChevronRight className="icon-green" />
+              <span>Website:</span> https://javierllanos6.github.io/About-me/
             </li>
             <li>
+              <FaChevronRight className="icon-green" />
               <span>Phone:</span> +123 456 7890
             </li>
             <li>
-              <span>City:</span> New York, USA
+              <FaChevronRight className="icon-green" />
+              <span>City:</span> Cochabamba, BOL
             </li>
           </ul>
           <ul>
             <li>
-              <span>Age:</span> 30
+              <FaChevronRight className="icon-green" />
+              <span>Age:</span> 24
             </li>
             <li>
-              <span>Degree:</span> Master
+              <FaChevronRight className="icon-green" />
+              <span>Degree:</span> Junior
             </li>
             <li>
-              <span>Email:</span> email@example.com
+              <FaChevronRight className="icon-green" />
+              <span>Email:</span> xavi12guz@gmail.com
             </li>
             <li>
+              <FaChevronRight className="icon-green" />
               <span>Freelance:</span> Available
             </li>
           </ul>
         </div>
         <p>
-          Officiis eligendi itaque labore et dolorum mollitia officiis optio
-          vero. Quisquam sunt adipisci omnis et ut...
+          <p>
+            I thrive on solving complex challenges and continually expanding my
+            skill set to stay current in this fast-evolving industry. Whether
+            working on collaborative projects or independent freelance work, I
+            am committed to delivering high-quality results that meet clients'
+            needs.
+          </p>
         </p>
       </div>
     </div>

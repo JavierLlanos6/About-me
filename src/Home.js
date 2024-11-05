@@ -48,7 +48,9 @@ const Home = () => {
         </div>
       </div>
       <div className="background-scroll">
-        <MyInfo />
+        <div data-aos="fade-up">
+          <MyInfo />
+        </div>
       </div>
     </div>
   );

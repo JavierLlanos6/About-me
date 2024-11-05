@@ -5,22 +5,19 @@
   padding: 50px;
   opacity: 0; /* Empieza oculta */
   transform: translateY(50px); /* Posición inicial para animación */
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  transition: opacity 1.0s ease-out, transform 1.0s ease-out;
 }
 
 .MyInfo-container.fade-in {
   opacity: 1;
   transform: translateY(0); /* Cuando entra en vista, aparece */
-}
-
-.MyInfo-image img {
-  width: 200px;
-  border-radius: 10px;
+  justify-content: center;
 }
 
 .MyInfo-info {
   margin-left: 20px;
   color: #fff;
+  width: 50%;
 }
 
 .MyInfo-info h2 {
@@ -31,18 +28,25 @@
 .MyInfo-info p {
   color: #ccc;
   margin-top: 10px;
+  font-size: 1.1em;
 }
 
 .MyInfo-details {
   display: flex;
   margin-top: 20px;
+  justify-content: space-around;
 }
 
 .MyInfo-details ul {
   list-style: none;
   padding: 0;
   margin-right: 30px;
-  color: #8dc63f; /* Color verde */
+  color: #ffffff; /* Color verde */
+  font-size: 1.8vh;
+}
+
+.icon-green{
+    color: #29be31;
 }
 
 .MyInfo-details ul li {
@@ -51,5 +55,10 @@
 
 .MyInfo-details ul li span {
   font-weight: bold;
-  color: #8dc63f;
+  color: #ffffff;
+}
+
+.profile-image{
+    height: 50vh;
+    width: 40vh;
 }
