@@ -1,0 +1,26 @@
+.skill-container{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.skills-grid {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 20px; /* Espacio entre elementos */
+    max-width: 75%; /* Ocupa el 75% del ancho de la pantalla */
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+.skill-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-item {
+    margin-bottom: 20px; /* Espaciado entre habilidades */
+    color: #ffffff;
+}
+
+.skill-name {
+    font-weight: bold;
+}
