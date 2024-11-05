@@ -3,6 +3,7 @@ import { ReactTyped as Typed } from "react-typed";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import "./Home.css";
 import MyInfo from "./MyInfo";
+import Skills from "./Skills";
 
 const Home = () => {
   return (
@@ -50,6 +51,11 @@ const Home = () => {
       <div className="background-scroll">
         <div data-aos="fade-up">
           <MyInfo />
+        </div>
+      </div>
+      <div className="background-scroll">
+        <div data-aos="fade-up">
+          <Skills />
         </div>
       </div>
     </div>
