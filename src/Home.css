@@ -54,3 +54,7 @@ p {
   height: 2px; /* Grosor de la línea */
   background-color: #29be31; /* Cambia a tu color verde preferido */
 }
+
+.background-scroll{
+  background: #000;
+}
