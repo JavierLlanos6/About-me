@@ -1,8 +1,8 @@
 // Skills.js
 import React from "react";
 import { useInView } from "react-intersection-observer";
-import "./Skills.css";
-import ProgressBar from "./ProgressBar";
+import "../CSS/Skills.css";
+import ProgressBar from "../ProgressBar";
 
 const Skills = () => {
   const { ref, inView } = useInView({
