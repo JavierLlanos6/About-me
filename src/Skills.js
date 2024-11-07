@@ -1,5 +1,5 @@
 // Skills.js
-import React, { useState } from "react";
+import React from "react";
 import { useInView } from "react-intersection-observer";
 import "./Skills.css";
 import ProgressBar from "./ProgressBar";
@@ -23,20 +23,20 @@ const Skills = () => {
   ];
 
   return (
-    <div className={`Skills-container ${inView ? "fade-in" : ""}`} ref={ref}>
-      <div className="skill-container">
-        <h2>Skills</h2>
-        <h3>My skills</h3>
-        <div className="skills-grid">
-          {skills.map((skill, index) => (
-            <div className="skill-item" key={index}>
-              <div className="skill-name">
-                {skill.language} - {skill.percentage}%
-              </div>
-              <ProgressBar percentage={skill.percentage} />
+    <div className={`skills-container ${inView ? "fade-in" : ""}`} ref={ref}>
+      <div className="skills-title">
+        <span className="skills-subtitle">SKILLS</span>
+        <h2>MY SKILLS</h2>
+      </div>
+      <div className="skills-grid">
+        {skills.map((skill, index) => (
+          <div className="skill-item" key={index}>
+            <div className="skill-name">
+              {skill.language} - {skill.percentage}%
             </div>
-          ))}
-        </div>
+            <ProgressBar percentage={skill.percentage} />
+          </div>
+        ))}
       </div>
     </div>
   );

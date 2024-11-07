@@ -3,6 +3,37 @@
     color: rgb(255, 255, 255);
 }
 
+.skills-title {
+  margin-bottom: 20px;
+  margin-left: 12.5%;
+}
+
+.skills-subtitle {
+  font-size: 2.7vh;
+  color: #666; /* Gris para el texto "SKILLS" */
+  font-weight: bold;
+  position: relative;
+  text-transform: uppercase;
+  display: block; /* Asegura que esté en su propia línea */
+  margin-bottom: 5px; /* Espacio entre "SKILLS" y "MY SKILLS" */
+}
+
+.skills-subtitle::after {
+  content: "";
+  display: block;
+  width: 17vh;
+  height: 2px;
+  background-color: #00ff00; /* Línea verde */
+  margin-top: 5px; /* Espacio entre el texto y la línea */
+}
+
+.skills-title h2 {
+  font-size: 3.5vh;
+  color: #ffffff; /* Blanco para "MY SKILLS" */
+  font-weight: bold;
+  margin-top: 0; /* Quita el margen superior */
+}
+
 .skills-grid {
     display: grid; 
     grid-template-columns: repeat(2, 1fr); /* Dos columnas */
