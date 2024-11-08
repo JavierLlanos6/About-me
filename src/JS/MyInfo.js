@@ -1,9 +1,9 @@
 // MyInfo.js
 import React from "react";
 import { useInView } from "react-intersection-observer";
-import "./MyInfo.css";
+import "../CSS/MyInfo.css";
 import { FaChevronRight } from "react-icons/fa"; // Importa el icono
-import ProfileImage from "./images/messizidane.jpeg";
+import ProfileImage from "../images/messizidane.jpeg";
 
 const MyInfo = () => {
   const { ref, inView } = useInView({
