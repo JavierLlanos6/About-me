@@ -5,6 +5,7 @@ import "./Home.css";
 import MyInfo from "./JS/MyInfo";
 import Skills from "./JS/Skills";
 import Resume from "./JS/Resume";
+import Project from "./JS/Project";
 
 const Home = () => {
   return (
@@ -62,6 +63,11 @@ const Home = () => {
       <div className="background-scroll">
         <div data-aos="fade-up">
           <Resume />
+        </div>
+      </div>
+      <div className="background-scroll">
+        <div data-aos="fade-up">
+          <Project />
         </div>
       </div>
     </div>
