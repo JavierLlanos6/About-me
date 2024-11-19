@@ -5,6 +5,7 @@ import "../CSS/Project.css";
 import acuaguia from "../images/AcuaGuia.jpg";
 import evalexpmat from "../images/EvaluadorExpMat.jpg";
 import classroom from "../images/Classroom3.jpg";
+import parkmycar from "../images/ParkMyCar.jpg";
 
 const Projects = () => {
   const { ref, inView } = useInView({
@@ -35,6 +36,14 @@ const Projects = () => {
       title: "Plataforma educativa",
       description:
         "A platform similar to Classroom with unique features, including group and private chat within classes, live Java code execution, and the ability to create classes, upload assignments, and join classes using a code.",
+      link: "https://github.com/Mirco874/TSS-E-LEARNING_PLATFORM",
+    },
+    {
+      id: 4,
+      image: parkmycar, // Ruta de la imagen
+      title: "ParkMyCar",
+      description:
+        "This platform allows you to manage parking-related news, edit operating hours, and more. As a user, you can reserve spots, make payments, receive notifications, leave feedback, and much more.",
       link: "https://github.com/Mirco874/TSS-E-LEARNING_PLATFORM",
     },
     // Agrega más proyectos si es necesario
