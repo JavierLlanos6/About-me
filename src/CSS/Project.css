@@ -1,10 +1,21 @@
 /* body {
   font-family: Arial, sans-serif;
 } */
+.project-main-container{
+  opacity: 0; /* Empieza oculta */
+  transform: translateY(50px); /* Posición inicial para animación */
+  transition: opacity 1.0s ease-out, transform 1.0s ease-out;
+}
+
+.project-main-container.fade-in {
+  opacity: 1;
+  transform: translateY(0); /* Cuando entra en vista, aparece */
+  justify-content: center;
+}
 
 .project-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Mínimo de 300px por tarjeta */
   gap: 20px;
   width: 75%;
   margin: 0 auto;

@@ -1,11 +1,21 @@
-.skill-container{
-    padding: 20px;
-    color: rgb(255, 255, 255);
+.skills-container{
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  opacity: 0; /* Empieza oculta */
+  transform: translateY(50px); /* Posición inicial para animación */
+  transition: opacity 1.0s ease-out, transform 1.0s ease-out;
+}
+
+.skills-container.fade-in {
+  opacity: 1;
+  transform: translateY(0); /* Cuando entra en vista, aparece */
+  justify-content: center;
 }
 
 .skills-title {
-  margin-bottom: 20px;
+  margin-bottom: 5vh;
   margin-left: 12.5%;
+  margin-top: 5vh;
 }
 
 .skills-subtitle {

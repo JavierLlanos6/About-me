@@ -7,7 +7,7 @@ import ProgressBar from "../ProgressBar";
 const Skills = () => {
   const { ref, inView } = useInView({
     triggerOnce: true, // Solo se activa una vez
-    threshold: 0.3, // Se activa cuando el 10% del componente está en vista
+    threshold: 0.5, // Se activa cuando el 10% del componente está en vista
   });
   const skills = [
     { language: "HTML", percentage: 90 },

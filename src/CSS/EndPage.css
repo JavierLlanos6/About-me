@@ -1,0 +1,30 @@
+/* Estilo para el contenedor del footer */
+.EndPage-container {
+    background-color: #111; /* Fondo oscuro */
+    color: #ccc; /* Texto gris claro */
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  
+  .EndPage-container .divider {
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.1); /* Línea casi imperceptible */
+    margin: 0 auto 20px auto;
+    width: 80%; /* Ajusta el ancho de la línea divisoria */
+  }
+  
+  .footer-content a {
+    color: #00ff00; /* Verde para los enlaces */
+    text-decoration: none;
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-content strong {
+    color: #fff; /* Resalta "Personal" en blanco */
+  }
+  
