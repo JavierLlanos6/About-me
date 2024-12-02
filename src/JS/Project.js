@@ -50,7 +50,10 @@ const Projects = () => {
   ];
 
   return (
-    <div className={`skills-container ${inView ? "fade-in" : ""}`} ref={ref}>
+    <div
+      className={`project-main-container ${inView ? "fade-in" : ""}`}
+      ref={ref}
+    >
       <div className="skills-title">
         <span className="skills-subtitle">PROJECT</span>
         <h2>MY PROJECTS</h2>

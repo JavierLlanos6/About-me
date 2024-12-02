@@ -6,6 +6,18 @@
   color: #fff;
 }
 
+.resumen-container{
+  opacity: 0; /* Empieza oculta */
+  transform: translateY(50px); /* Posición inicial para animación */
+  transition: opacity 1.0s ease-out, transform 1.0s ease-out;
+}
+
+.resumen-container.fade-in {
+  opacity: 1;
+  transform: translateY(0); /* Cuando entra en vista, aparece */
+  justify-content: center;
+}
+
 .resume-column {
   flex: 1;
   margin-right: 20px;

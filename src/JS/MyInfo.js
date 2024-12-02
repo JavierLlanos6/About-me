@@ -39,7 +39,7 @@ const MyInfo = () => {
             </li>
             <li>
               <FaChevronRight className="icon-green" />
-              <span>Phone:</span> +123 456 7890
+              <span>Phone:</span> +591 60378455
             </li>
             <li>
               <FaChevronRight className="icon-green" />

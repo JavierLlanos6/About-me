@@ -10,7 +10,7 @@ const Resume = () => {
   });
 
   return (
-    <div className={`skills-container ${inView ? "fade-in" : ""}`} ref={ref}>
+    <div className={`resumen-container ${inView ? "fade-in" : ""}`} ref={ref}>
       <div className="skills-title">
         <span className="skills-subtitle">RESUME</span>
         <h2>MY RESUME</h2>

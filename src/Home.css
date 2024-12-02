@@ -1,4 +1,7 @@
 /* Home.css */
+.home-main-container{
+  background-color: black;
+}
 
 .home-container {
   display: flex;

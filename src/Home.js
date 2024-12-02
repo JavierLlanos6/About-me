@@ -6,10 +6,11 @@ import MyInfo from "./JS/MyInfo";
 import Skills from "./JS/Skills";
 import Resume from "./JS/Resume";
 import Project from "./JS/Project";
+import EndPage from "./JS/EndPage";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home-main-container">
       <div className="home-container">
         <div className="home-content">
           <h1>Javier Llanos</h1>
@@ -68,6 +69,11 @@ const Home = () => {
       <div className="background-scroll">
         <div data-aos="fade-up">
           <Project />
+        </div>
+      </div>
+      <div className="background-scroll">
+        <div data-aos="fade-up">
+          <EndPage />
         </div>
       </div>
     </div>
