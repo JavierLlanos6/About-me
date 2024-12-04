@@ -1,4 +1,3 @@
-// MyInfo.js
 import React from "react";
 import { useInView } from "react-intersection-observer";
 import "../CSS/MyInfo.css";
