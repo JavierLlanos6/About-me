@@ -49,6 +49,17 @@ const Resume = () => {
                 <div className="resume-line"></div>
               </div>
               <div className="resume-content">
+                <h3>Curso de introducción al desarrollo web: HTML y CSS </h3>
+                <p>2024</p>
+                <p>Google Digital Academy (Skillshop)</p>
+              </div>
+            </div>
+            <div className="resume-item">
+              <div className="resume-icon-line">
+                <div className="resume-icon"></div>
+                <div className="resume-line"></div>
+              </div>
+              <div className="resume-content">
                 <h3>Encaminamiento de información en redes - 2022</h3>
                 <p>2022</p>
                 <p>Universidad Mayor de San Simón (Bolivia)</p>

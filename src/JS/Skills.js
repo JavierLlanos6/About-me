@@ -17,9 +17,7 @@ const Skills = () => {
     { language: "Node.js", percentage: 62 },
     { language: "MongoDB", percentage: 55 },
     { language: "Java", percentage: 70 },
-    { language: "MySQL", percentage: 60 },
     { language: "Firebase", percentage: 75 },
-    { language: "Figma", percentage: 70 },
   ];
 
   return (
