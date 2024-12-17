@@ -84,6 +84,7 @@
   .MyInfo-container {
     flex-direction: column; /* Cambia la orientación a columna */
     text-align: center;
+    padding: 1vh;
   }
 
   .MyInfo-image {
@@ -93,6 +94,11 @@
   .profile-image {
     width: 80%; /* La imagen ocupa el 80% del ancho de la pantalla */
     max-width: 300px; /* Máximo tamaño */
+  }
+  
+  .MyInfo-info{
+    width: 90%;
+    margin-left: 0;
   }
 }
 
