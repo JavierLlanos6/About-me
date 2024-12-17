@@ -41,13 +41,13 @@ const Home = () => {
             >
               <FaLinkedin className="icon" />
             </a>
-            <a
+            {/* <a
               href="https://instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaInstagram className="icon" />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

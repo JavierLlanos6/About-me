@@ -1,6 +1,6 @@
 /* Estilo para el contenedor del footer */
 .EndPage-container {
-    background-color: #111; /* Fondo oscuro */
+    background-color: #000000; /* Fondo oscuro */
     color: #ccc; /* Texto gris claro */
     text-align: center;
     padding: 20px 0;
@@ -10,7 +10,7 @@
   .EndPage-container .divider {
     border: none;
     height: 1px;
-    background-color: rgba(255, 255, 255, 0.1); /* Línea casi imperceptible */
+    background-color: rgba(255, 255, 255, 0.25); /* Línea casi imperceptible */
     margin: 0 auto 20px auto;
     width: 80%; /* Ajusta el ancho de la línea divisoria */
   }
