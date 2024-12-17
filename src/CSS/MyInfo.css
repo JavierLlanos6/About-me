@@ -62,3 +62,74 @@
     height: 50vh;
     width: 40vh;
 }
+
+/* Estilos generales de la imagen */
+.MyInfo-image {
+  display: flex; /* Centra la imagen */
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin-bottom: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.profile-image {
+  max-width: 100%; /* Se adapta al ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 10px; /* Bordes redondeados opcionales */
+  object-fit: cover; /* Asegura que la imagen se recorte correctamente */
+}
+
+/* Media query para dispositivos pequeños */
+@media (max-width: 768px) {
+  .MyInfo-container {
+    flex-direction: column; /* Cambia la orientación a columna */
+    text-align: center;
+  }
+
+  .MyInfo-image {
+    margin-bottom: 15px; /* Espacio adicional */
+  }
+
+  .profile-image {
+    width: 80%; /* La imagen ocupa el 80% del ancho de la pantalla */
+    max-width: 300px; /* Máximo tamaño */
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-image {
+    width: 100%; /* Ocupar todo el ancho en pantallas muy pequeñas */
+    max-width: 250px;
+  }
+}
+
+
+.MyInfo-details {
+  display: flex;
+  justify-content: space-between; /* Distribuye las columnas */
+  gap: 20px; /* Espacio entre las columnas */
+}
+
+/* Estilos generales de las listas */
+.MyInfo-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Media Query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .MyInfo-details {
+    flex-direction: column; /* Cambia a una columna */
+    align-items: center; /* Centra el contenido */
+    gap: 15px; /* Ajusta el espacio entre listas */
+  }
+
+  .MyInfo-details ul {
+    text-align: center; /* Centra el texto */
+  }
+
+  .MyInfo-details li {
+    margin-bottom: 10px; /* Espacio entre elementos */
+  }
+}
