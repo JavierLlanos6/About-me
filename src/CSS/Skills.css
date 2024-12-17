@@ -65,3 +65,9 @@
 .skill-name {
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  .skills-grid {
+    max-width: 100%; 
+  }
+}
