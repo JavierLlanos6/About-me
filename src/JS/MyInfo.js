@@ -48,7 +48,7 @@ const MyInfo = () => {
           <ul>
             <li>
               <FaChevronRight className="icon-green" />
-              <span>Age:</span> 24
+              <span>Age:</span> 25
             </li>
             <li>
               <FaChevronRight className="icon-green" />
