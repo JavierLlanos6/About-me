@@ -26,17 +26,41 @@ const Resume = () => {
                 <div className="resume-line"></div>
               </div>
               <div className="resume-content">
-                <h3>Web Developer</h3>
+                <h3>FullStack Developer - AcuaGuia</h3>
+                <span>2024 Jan - 2024 Jun</span>
+                <p>Cochabamba, BOL</p>
+                <p>
+                  {" "}
+                  Developed a SPA using React.js and Firebase for managing
+                  personalized freshwater aquariums. Data (fish, plants,
+                  accessories, etc.) was collected from various online sources.
+                  Designed UX/UI in Figma, optimized images with Squoosh, and
+                  removed backgrounds using remove.bg. The system automatically
+                  checks parameters like fish compatibility, pH, temperature,
+                  etc., and displays condition statuses with custom messages
+                  using JavaScript-driven logic. Users can edit their aquariums
+                  anytime, triggering real-time updates and recalculations.
+                </p>
+              </div>
+            </div>
+            <div className="resume-item">
+              <div className="resume-icon-line">
+                <div className="resume-icon"></div>
+                <div className="resume-line"></div>
+              </div>
+              <div className="resume-content">
+                <h3>FullStack Developer - COBOCE R.L.</h3>
                 <span>2023 Sep - 2023 Dec</span>
                 <p>Cochabamba, BOL</p>
                 <p>
                   {" "}
-                  Develop and program a web platform for user management that
-                  allows for different access levels and customized options
-                  based on each user's profile. Implement automated calculations
-                  to generate the Balance Sheet and Income Statement, with
-                  customizable filters so users can view information according
-                  to their needs.
+                  Developed a SPA using React.js for user management with access
+                  control and role-based views. Integrated a login system and
+                  features like Balance Sheet and Income Statement, displayed
+                  based on user type. Used JavaScript and SQL queries to
+                  generate date-filtered reports with automated calculations,
+                  exported as PDF. The application connects to an Informix
+                  database and includes a responsive, device-friendly interface.
                 </p>
               </div>
             </div>
@@ -49,9 +73,48 @@ const Resume = () => {
                 <div className="resume-line"></div>
               </div>
               <div className="resume-content">
+                <h3>Foundational C# with Microsoft </h3>
+                <p>FreeCodeCamp & Microsoft - 2025 </p>
+              </div>
+            </div>
+            <div className="resume-item">
+              <div className="resume-icon-line">
+                <div className="resume-icon"></div>
+                <div className="resume-line"></div>
+              </div>
+              <div className="resume-content">
+                <h3>FrontEnd Development Libraries </h3>
+                <p>FreeCodeCamp - 2025</p>
+              </div>
+            </div>
+            <div className="resume-item">
+              <div className="resume-icon-line">
+                <div className="resume-icon"></div>
+                <div className="resume-line"></div>
+              </div>
+              <div className="resume-content">
+                <h3>Responsive Web Design </h3>
+                <p>FreeCodeCamp - 2025</p>
+              </div>
+            </div>
+            <div className="resume-item">
+              <div className="resume-icon-line">
+                <div className="resume-icon"></div>
+                <div className="resume-line"></div>
+              </div>
+              <div className="resume-content">
+                <h3>JavaScript Algorithms and Data Structures </h3>
+                <p>FreeCodeCamp - 2025</p>
+              </div>
+            </div>
+            <div className="resume-item">
+              <div className="resume-icon-line">
+                <div className="resume-icon"></div>
+                <div className="resume-line"></div>
+              </div>
+              <div className="resume-content">
                 <h3>Curso de introducción al desarrollo web: HTML y CSS </h3>
-                <p>2024</p>
-                <p>Google Digital Academy (Skillshop)</p>
+                <p>Google Digital Academy (Skillshop) - 2024</p>
               </div>
             </div>
             <div className="resume-item">
@@ -61,8 +124,7 @@ const Resume = () => {
               </div>
               <div className="resume-content">
                 <h3>Encaminamiento de información en redes - 2022</h3>
-                <p>2022</p>
-                <p>Universidad Mayor de San Simón (Bolivia)</p>
+                <p>Universidad Mayor de San Simón (Bolivia) - 2022</p>
               </div>
             </div>
             <div className="resume-item">
@@ -72,26 +134,10 @@ const Resume = () => {
               </div>
               <div className="resume-content">
                 <h3>Conceptos y herramientas para la física universitaria</h3>
-                <p>2018</p>
                 <p>
                   Instituto tecnológico y de estudios superiores de monterrey
-                  (México)
+                  (México) - 2018
                 </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="resume-section">
-            <h2 className="section-title">Education</h2>
-            <div className="resume-item">
-              <div className="resume-icon-line">
-                <div className="resume-icon"></div>
-                <div className="resume-line"></div>
-              </div>
-              <div className="resume-content">
-                <h3>Systems Engineering</h3>
-                <span>2018 - 2024</span>
-                <p>Universidad Mayor de San Simón (Bolivia)</p>
               </div>
             </div>
           </div>
@@ -107,35 +153,19 @@ const Resume = () => {
                 <div className="resume-line"></div>
               </div>
               <div className="resume-content">
-                <h3>AcuaGuia</h3>
-                <span>2024</span>
-                <p>
-                  Creation of an information system about freshwater fish care
-                  using React and Firebase. Information such as fish data, food,
-                  diseases, plants, and accessories were collected. The system
-                  allows you to create your own aquarium with the measurements
-                  of the aquarium and the selected fish, plants, and
-                  accessories. Depending on what is selected, the system
-                  verifies if all the aquarium parameters are in order;
-                  otherwise, it will show a personalized message indicating why
-                  there is an error.{" "}
-                </p>
-              </div>
-            </div>
-            <div className="resume-item">
-              <div className="resume-icon-line">
-                <div className="resume-icon"></div>
-                <div className="resume-line"></div>
-              </div>
-              <div className="resume-content">
                 <h3>ParkMyCar </h3>
-                <span>2023</span>
+                <span>FrontEnd Developer - 2023</span>
                 <p>
-                  Development of a page for parking management and reservations
-                  using React with Bootstrap. Users could make same-day or
-                  advance reservations, and the administrator could modify
-                  opening and closing hours, assign guards for specific days,
-                  manage complaints, and maintain guard records.
+                  Developed a SPA using React.js, Bootstrap, and MySQL to manage
+                  parking reservations with multi-role user control: admin,
+                  staff, and client. Admins can set operating hours, assign
+                  staff, and manage capacity. Staff handle check-ins,
+                  check-outs, payments, and fines. Clients can self-register,
+                  book parking spots, generate QR codes for payments, and upload
+                  proof of payment. The system includes a feedback section for
+                  clients and a complaints dashboard for admins. Access and
+                  actions are dynamically controlled based on the authenticated
+                  user role.
                 </p>
               </div>
             </div>
@@ -146,7 +176,7 @@ const Resume = () => {
               </div>
               <div className="resume-content">
                 <h3>Plataforma de Simulación </h3>
-                <span>2022</span>
+                <span>FrontEnd Developer - 2022</span>
                 <p>
                   Development of an Educational Simulation Platform for Systems
                   Simulation using React. Similar to a classroom environment, it
@@ -164,7 +194,7 @@ const Resume = () => {
               </div>
               <div className="resume-content">
                 <h3>QA </h3>
-                <span>2022</span>
+                <span>QA - 2022</span>
                 <p>
                   Quality assurance for a website focused on mental and physical
                   exercises for the elderly, using Robot for automated testing.
@@ -178,11 +208,32 @@ const Resume = () => {
               </div>
               <div className="resume-content">
                 <h3>EducaTe </h3>
-                <span>2021</span>
+                <span>FrontEnd Developer - 2021</span>
                 <p>
-                  Development of a website named "EducaTe" focused on education
-                  for 6th and 7th grade children using React.
+                  Developed EducaTe, a SPA built with React.js aimed at
+                  supporting the education of 6th and 7th grade students. It
+                  features interactive math exercises (addition, subtraction,
+                  multiplication, division) using JavaScript, delivered through
+                  dynamic games like mazes, puzzles, and arrow-key navigation
+                  challenges. Educational videos from YouTube are integrated and
+                  stored in Firebase along with other learning content. The
+                  platform provides a fun, visual learning environment to
+                  reinforce foundational math and memory skills.
                 </p>
+              </div>
+            </div>
+          </div>
+          <div className="resume-section">
+            <h2 className="section-title">Education</h2>
+            <div className="resume-item">
+              <div className="resume-icon-line">
+                <div className="resume-icon"></div>
+                <div className="resume-line"></div>
+              </div>
+              <div className="resume-content">
+                <h3>Systems Engineering</h3>
+                <span>2018 - 2024</span>
+                <p>Universidad Mayor de San Simón (Bolivia)</p>
               </div>
             </div>
           </div>
