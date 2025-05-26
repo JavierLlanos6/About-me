@@ -1,23 +1,40 @@
-// Skills.js
 import React from "react";
 import { useInView } from "react-intersection-observer";
 import "../CSS/Skills.css";
-import ProgressBar from "../ProgressBar";
+import {
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiReact,
+  SiNodedotjs,
+  SiMongodb,
+  SiOpenjdk,
+  SiFirebase,
+  SiC,
+  SiFigma,
+  SiJira,
+  SiMysql,
+} from "react-icons/si";
 
 const Skills = () => {
   const { ref, inView } = useInView({
-    triggerOnce: true, // Solo se activa una vez
-    threshold: 0.5, // Se activa cuando el 10% del componente está en vista
+    triggerOnce: true,
+    threshold: 0.5,
   });
+
   const skills = [
-    { language: "HTML", percentage: 90 },
-    { language: "CSS", percentage: 88 },
-    { language: "JavaScript", percentage: 80 },
-    { language: "React", percentage: 77 },
-    { language: "Node.js", percentage: 62 },
-    { language: "MongoDB", percentage: 55 },
-    { language: "Java", percentage: 70 },
-    { language: "Firebase", percentage: 75 },
+    { name: "HTML", icon: <SiHtml5 /> },
+    { name: "CSS", icon: <SiCss3 /> },
+    { name: "JavaScript", icon: <SiJavascript /> },
+    { name: "C#", icon: <SiC /> },
+    { name: "Java", icon: <SiOpenjdk /> },
+    { name: "Node.js", icon: <SiNodedotjs /> },
+    { name: "MongoDB", icon: <SiMongodb /> },
+    { name: "MySQL", icon: <SiMysql /> },
+    { name: "Firebase", icon: <SiFirebase /> },
+    { name: "React", icon: <SiReact /> },
+    { name: "Figma", icon: <SiFigma /> },
+    { name: "Jira", icon: <SiJira /> },
   ];
 
   return (
@@ -28,11 +45,9 @@ const Skills = () => {
       </div>
       <div className="skills-grid">
         {skills.map((skill, index) => (
-          <div className="skill-item" key={index}>
-            <div className="skill-name">
-              {skill.language} - {skill.percentage}%
-            </div>
-            <ProgressBar percentage={skill.percentage} />
+          <div className="skill-icon-item" key={index}>
+            <div className="icon-style">{skill.icon}</div>
+            <p className="icon-label">{skill.name}</p>
           </div>
         ))}
       </div>

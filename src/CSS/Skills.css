@@ -46,7 +46,7 @@
 
 .skills-grid {
     display: grid; 
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    grid-template-columns: repeat(4, 1fr); /* Dos columnas */
     gap: 20px; /* Espacio entre elementos */
     max-width: 75%; /* Ocupa el 75% del ancho de la pantalla */
     margin: 0 auto; /* Centra el contenedor */
@@ -66,8 +66,40 @@
     font-weight: bold;
 }
 
+.skill-icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.skill-icon-item:hover {
+  transform: scale(1.1);
+}
+
+.icon-style {
+  font-size: 7vh;
+  margin-bottom: 10px;
+  color: #00ff00;
+  animation: bounce 2s infinite;
+}
+
+.icon-label {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2.2vh;
+}
+
 @media (max-width: 768px) {
   .skills-grid {
     max-width: 100%; 
   }
+  .skills-grid {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); /* Dos columnas */
+    gap: 10px; /* Espacio entre elementos */
+    max-width: 95%; /* Ocupa el 75% del ancho de la pantalla */
+    margin: 0 auto; /* Centra el contenedor */
+}
 }
